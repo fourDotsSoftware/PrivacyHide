@@ -1,0 +1,6 @@
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideLauncher\bin\Release\PrivacyHideLauncher.exe
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideLauncher\bin\Release\PrivacyHideLauncher.pdb
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideLauncher\obj\Release\PrivacyHideLauncher.Properties.Resources.resources
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideLauncher\obj\Release\PrivacyHideLauncher.csproj.GenerateResource.Cache
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideLauncher\obj\Release\PrivacyHideLauncher.exe
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideLauncher\obj\Release\PrivacyHideLauncher.pdb

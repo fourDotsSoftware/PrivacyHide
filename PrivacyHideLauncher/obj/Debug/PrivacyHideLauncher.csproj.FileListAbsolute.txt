@@ -1,0 +1,8 @@
+c:\code\Misc\Desktop Utilities\PrivacyHide\PrivacyHideLauncher\bin\Debug\PrivacyHideLauncher.exe
+c:\code\Misc\Desktop Utilities\PrivacyHide\PrivacyHideLauncher\bin\Debug\PrivacyHideLauncher.pdb
+c:\code\Misc\Desktop Utilities\PrivacyHide\PrivacyHideLauncher\obj\Debug\PrivacyHideLauncher.csprojAssemblyReference.cache
+c:\code\Misc\Desktop Utilities\PrivacyHide\PrivacyHideLauncher\obj\Debug\PrivacyHideLauncher.Properties.Resources.resources
+c:\code\Misc\Desktop Utilities\PrivacyHide\PrivacyHideLauncher\obj\Debug\PrivacyHideLauncher.csproj.GenerateResource.cache
+c:\code\Misc\Desktop Utilities\PrivacyHide\PrivacyHideLauncher\obj\Debug\PrivacyHideLauncher.csproj.CoreCompileInputs.cache
+c:\code\Misc\Desktop Utilities\PrivacyHide\PrivacyHideLauncher\obj\Debug\PrivacyHideLauncher.exe
+c:\code\Misc\Desktop Utilities\PrivacyHide\PrivacyHideLauncher\obj\Debug\PrivacyHideLauncher.pdb

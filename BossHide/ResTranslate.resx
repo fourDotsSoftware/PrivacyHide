@@ -1,0 +1,798 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Add new search item to project" xml:space="preserve">
+    <value>This is a trial version of the application. Press the "Buy now" button to buy a license.</value>
+  </data>
+  <data name="Continue activated search?" xml:space="preserve">
+    <value>Registration Successful! Please restart the application.</value>
+  </data>
+  <data name="Direct search started" xml:space="preserve">
+    <value>Invalid Registration ! Please contact the author of the application.</value>
+  </data>
+  <data name="Edit 4dots Project" xml:space="preserve">
+    <value>The test period of the application has expired. Press the "Buy now" button to buy a license.</value>
+  </data>
+  <data name="Erroneous search 2" xml:space="preserve">
+    <value>Error! Unable to register. Please contact the author of the application if this error persists.</value>
+  </data>
+  <data name="Error 12" xml:space="preserve">
+    <value>SUCCESS</value>
+  </data>
+  <data name="Error during search startup" xml:space="preserve">
+    <value>Remaining Days :</value>
+  </data>
+  <data name="Import search result" xml:space="preserve">
+    <value>3ew125a23</value>
+  </data>
+  <data name="Init Project" xml:space="preserve">
+    <value>DRFDf</value>
+  </data>
+  <data name="Initial Failure Object" xml:space="preserve">
+    <value>The key was registered. Please restart the application.</value>
+  </data>
+  <data name="Search duration process" xml:space="preserve">
+    <value>INVALID REGISTRATION</value>
+  </data>
+  <data name="Uniform process" xml:space="preserve">
+    <value>POST</value>
+  </data>
+  <data name="Αλλαγή Ονόματος" xml:space="preserve">
+    <value>PRVH-1.0</value>
+  </data>
+  <data name="Αλλαγή στοιχείων εικόνας" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="Αλλαγή Φίλτρου Εικόνας" xml:space="preserve">
+    <value>24e12gvf</value>
+  </data>
+  <data name="Ανανέωση Εικόνας" xml:space="preserve">
+    <value>?optionfile=</value>
+  </data>
+  <data name="Εισαγωγή Εικόνας" xml:space="preserve">
+    <value>24e40dde</value>
+  </data>
+  <data name="Εναλλαγή Εικόνας" xml:space="preserve">
+    <value>asd321e5</value>
+  </data>
+  <data name="Καθορισμός Ονόματος" xml:space="preserve">
+    <value>|||***DTT***|||</value>
+  </data>
+  <data name="Μορφοποίηση Εικόνας" xml:space="preserve">
+    <value>e9r4hFfEedffYFUfth123458</value>
+  </data>
+  <data name="Νέα Εικόνα" xml:space="preserve">
+    <value>SOFTWARE\\DtMsg</value>
+  </data>
+  <data name="Παράμετροι Μετρήσεως Εικόνας" xml:space="preserve">
+    <value>application/x-www-form-urlencoded</value>
+  </data>
+  <data name="Περιγραφή Ονόματος" xml:space="preserve">
+    <value>f8e8dFfYfly12eAADfdt1224</value>
+  </data>
+  <data name="Πηγή Εικόνας" xml:space="preserve">
+    <value>|||12|||</value>
+  </data>
+  <data name="Προβολή Εικόνας 1" xml:space="preserve">
+    <value>C:\\</value>
+  </data>
+  <data name="Προβολή Εικόνων" xml:space="preserve">
+    <value>\\dtmsgbc.dll</value>
+  </data>
+  <data name="Σφάλμα 120" xml:space="preserve">
+    <value>http://www.4dots-software.com/privacyhide/register.php</value>
+  </data>
+  <data name="Σφάλμα 1201" xml:space="preserve">
+    <value>&amp;</value>
+  </data>
+  <data name="Υπολογισμός Επιφάνειας" xml:space="preserve">
+    <value>203023 DR-24031</value>
+  </data>
+  <data name="Φίλτρο Εικόνας" xml:space="preserve">
+    <value>56eft3fzazyef3er12zazTGD</value>
+  </data>
+  <data name="Η λειτουργία εκτελέστηκε επιτυχώς !" xml:space="preserve">
+    <value>Operation completed successfully !</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η Ενημέρωση των Στοιχείων !" xml:space="preserve">
+    <value>Could not update data !</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η Προβολή των Στοιχείων" xml:space="preserve">
+    <value>Could not display Data</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η Εξαγωγή στο Word" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η Εξαγωγή στο Word</value>
+  </data>
+  <data name="Σφάλμα δεν ήταν δυνατή η αποθήκευση των σχολίων" xml:space="preserve">
+    <value>Error. Could not save comments.</value>
+  </data>
+  <data name="Σφάλμα δεν ήταν δυνατή η αποθήκευση της Διάγνωσης" xml:space="preserve">
+    <value>Error. Could not save Diagnosis</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η Εξαγωγή στο PowerPoint" xml:space="preserve">
+    <value>Could not export to PowerPoint</value>
+  </data>
+  <data name="MessageTitle" xml:space="preserve">
+    <value>MessageTitle</value>
+  </data>
+  <data name="Error 1" xml:space="preserve">
+    <value>Error 1</value>
+  </data>
+  <data name="Replace string process started" xml:space="preserve">
+    <value>Replace string process started</value>
+  </data>
+  <data name="Error 4" xml:space="preserve">
+    <value>Error 4</value>
+  </data>
+  <data name="Μέγεθος (KB)" xml:space="preserve">
+    <value>Size (KB)</value>
+  </data>
+  <data name="Διαστάσεις (Pixels)" xml:space="preserve">
+    <value>Dimensions (Pixels)</value>
+  </data>
+  <data name="Ημερομηνία" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="Σχόλια" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Ακαθόριστο Σφάλμα" xml:space="preserve">
+    <value>Unspecified error</value>
+  </data>
+  <data name="Άρρεν" xml:space="preserve">
+    <value>Άρρεν</value>
+  </data>
+  <data name="Θήλυ" xml:space="preserve">
+    <value>Θήλυ</value>
+  </data>
+  <data name="Όνομα" xml:space="preserve">
+    <value>Όνομα</value>
+  </data>
+  <data name="Ημερομηνία Γεννήσεως" xml:space="preserve">
+    <value>Ημερομηνία Γεννήσεως</value>
+  </data>
+  <data name="Τηλέφωνο" xml:space="preserve">
+    <value>Τηλέφωνο</value>
+  </data>
+  <data name="Φωτογραφία" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="Μη ξαναδείξεις αυτό το μήνυμα" xml:space="preserve">
+    <value>Do not show this Message again</value>
+  </data>
+  <data name="Διάγνωση" xml:space="preserve">
+    <value>Diagnosis</value>
+  </data>
+  <data name="Μία Εικόνα" xml:space="preserve">
+    <value>Single Photo</value>
+  </data>
+  <data name="Σύκριση" xml:space="preserve">
+    <value>Compare</value>
+  </data>
+  <data name="Προβολή Παρουσίασης" xml:space="preserve">
+    <value>Slide Show</value>
+  </data>
+  <data name="Βλάβη" xml:space="preserve">
+    <value>Βλάβη</value>
+  </data>
+  <data name="Κατοπτικές Φωτογραφίες" xml:space="preserve">
+    <value>Κατοπτικές Φωτογραφίες</value>
+  </data>
+  <data name="Δερματοσκοπικές Φωτογραφίες" xml:space="preserve">
+    <value>Δερματοσκοπικές Φωτογραφίες</value>
+  </data>
+  <data name="Πρώτη Εικόνα" xml:space="preserve">
+    <value>First Photo</value>
+  </data>
+  <data name="Ημερομηνία Λήψεως" xml:space="preserve">
+    <value>Shooting Date</value>
+  </data>
+  <data name="Δεύτερη Εικόνα" xml:space="preserve">
+    <value>Second Photo</value>
+  </data>
+  <data name="Βλάβη : " xml:space="preserve">
+    <value>Βλάβη : </value>
+  </data>
+  <data name="Είστε σίγουροι ότι θέλετε να διαγράψετε το σπίλο ;" xml:space="preserve">
+    <value>Είστε σίγουροι ότι θέλετε να διαγράψετε το σπίλο ;</value>
+  </data>
+  <data name="Διαγραφή σπίλου ;" xml:space="preserve">
+    <value>Διαγραφή σπίλου ;</value>
+  </data>
+  <data name="Κατοπτική" xml:space="preserve">
+    <value>Κατοπτική</value>
+  </data>
+  <data name="Δερματοσκοπική" xml:space="preserve">
+    <value>Δερματοσκοπική</value>
+  </data>
+  <data name="Πλαίσιο" xml:space="preserve">
+    <value>Πλαίσιο</value>
+  </data>
+  <data name="Zoom" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="MessageTitle8" xml:space="preserve">
+    <value>MessageTitle8</value>
+  </data>
+  <data name="MessageTitle7" xml:space="preserve">
+    <value>MessageTitle7</value>
+  </data>
+  <data name="Λοιμώδη Νοσήματα" xml:space="preserve">
+    <value>Λοιμώδη Νοσήματα</value>
+  </data>
+  <data name="Λήψη Φαρμάκων" xml:space="preserve">
+    <value>Λήψη Φαρμάκων</value>
+  </data>
+  <data name="Συνοδά Νοσήματα" xml:space="preserve">
+    <value>Συνοδά Νοσήματα</value>
+  </data>
+  <data name="Ιστορικό Αλλεργικών Αντιδράσεων" xml:space="preserve">
+    <value>Ιστορικό Αλλεργικών Αντιδράσεων</value>
+  </data>
+  <data name="Άλλα" xml:space="preserve">
+    <value>Άλλα</value>
+  </data>
+  <data name="Βιοψία" xml:space="preserve">
+    <value>Βιοψία</value>
+  </data>
+  <data name="Χειρουργική Επέμβαση" xml:space="preserve">
+    <value>Χειρουργική Επέμβαση</value>
+  </data>
+  <data name="Αναισθησία" xml:space="preserve">
+    <value>Αναισθησία</value>
+  </data>
+  <data name="Ημ/νία Επέμβασης" xml:space="preserve">
+    <value>Ημ/νία Επέμβασης</value>
+  </data>
+  <data name="Παρακαλώ πρώτα επιλέξτε μία γραμμή στον πίνακα των Βιοψιών / Επεμβάσεων" xml:space="preserve">
+    <value>Παρακαλώ πρώτα επιλέξτε μία γραμμή στον πίνακα των Βιοψιών / Επεμβάσεων</value>
+  </data>
+  <data name="Παρακαλώ εισάγετε κάποια Έγκυρη Ημερομηνία !" xml:space="preserve">
+    <value>Please enter a valid date!</value>
+  </data>
+  <data name="Ξ’Ξ»Ξ¬Ξ²Ξ· : " xml:space="preserve">
+    <value>Ξ’Ξ»Ξ¬Ξ²Ξ· : </value>
+  </data>
+  <data name="Αρχείο" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="Είστε σίγουροι ότι θέλετε να διαγράψετε πλήρως την φωτογραφία ;" xml:space="preserve">
+    <value>Delete completely the Photo ?</value>
+  </data>
+  <data name="Πλήρη Διαγραφή Φωτογραφίας ;" xml:space="preserve">
+    <value>Delete Photo completely ?</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η αφαίρεση της Φωτογραφίας από τη Βλάβη !" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η αφαίρεση της Φωτογραφίας από τη Βλάβη !</value>
+  </data>
+  <data name="Δε βρέθηκε συμβατή Φωτογραφική Μηχανή ! Παρακαλώ συνδέστε μία Φωτογραφική Μηχανή που έχει δυνατότητα" xml:space="preserve">
+    <value>Δε βρέθηκε συμβατή Φωτογραφική Μηχανή ! Παρακαλώ συνδέστε μία Φωτογραφική Μηχανή που έχει δυνατότητα</value>
+  </data>
+  <data name="Ιστορικό Ασθενούς" xml:space="preserve">
+    <value>Ιστορικό Ασθενούς</value>
+  </data>
+  <data name="Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή την Παρούσα Νόσο και όλα τα στοιχεία της ;" xml:space="preserve">
+    <value>Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή την Παρούσα Νόσο και όλα τα στοιχεία της ;</value>
+  </data>
+  <data name="Παρακαλώ επιλέξτε πρώτα μία Παρούσα Νόσο" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε πρώτα μία Παρούσα Νόσο</value>
+  </data>
+  <data name="Επιλέξτε πρώτα μία Παρούσα Νόσο !" xml:space="preserve">
+    <value>Επιλέξτε πρώτα μία Παρούσα Νόσο !</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η Διαγραφή !" xml:space="preserve">
+    <value>Unable to Delete!</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η Ενημέρωση !" xml:space="preserve">
+    <value>Unable to Update!</value>
+  </data>
+  <data name="Επισκέψεις" xml:space="preserve">
+    <value>Επισκέψεις</value>
+  </data>
+  <data name="Παρούσα Νόσος" xml:space="preserve">
+    <value>Παρούσα Νόσος</value>
+  </data>
+  <data name="Laser / Lights Λεπτομέρειες" xml:space="preserve">
+    <value>Laser / Lights Λεπτομέρειες</value>
+  </data>
+  <data name="Παρακαλώ επιλέξτε πρώτα μία Γραμμή" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε πρώτα μία Γραμμή</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η Εξαγωγή σε Excel" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η Εξαγωγή σε Excel</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η ενημέρωση της βάσης δεδομένων !" xml:space="preserve">
+    <value>Unable to update the database!</value>
+  </data>
+  <data name="Φωτογραφίες Πελάτη" xml:space="preserve">
+    <value>Customer Photos</value>
+  </data>
+  <data name="&lt;&lt; Απόκρυψη" xml:space="preserve">
+    <value>&lt;&lt; Hide</value>
+  </data>
+  <data name="Εμφάνιση &gt;&gt;" xml:space="preserve">
+    <value>Show &gt;&gt;</value>
+  </data>
+  <data name="Παρατηρούμε ότι δεν έχετε ορίσει ακόμα drives φωτογραφικών συσκευών.\nΠαρακαλώ ορίστε πρώτα drives φωτογραφικών συσκευών πριν εισάγετε φωτογραφίες από αυτές." xml:space="preserve">
+    <value>Παρατηρούμε ότι δεν έχετε ορίσει ακόμα drives φωτογραφικών συσκευών.\nΠαρακαλώ ορίστε πρώτα drives φωτογραφικών συσκευών πριν εισάγετε φωτογραφίες από αυτές.</value>
+  </data>
+  <data name="Δεν βρέθηκαν νέες Φωτογραφίες στον Φάκελο του Πελάτη !" xml:space="preserve">
+    <value>Δεν βρέθηκαν νέες Φωτογραφίες στον Φάκελο του Πελάτη !</value>
+  </data>
+  <data name="Παρακαλώ επιλέξτε πρώτα μία βλάβη !" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε πρώτα μία βλάβη !</value>
+  </data>
+  <data name="Παρακαλώ επιλέξτε πρώτα έναν Πελάτη προτού στείλετε Φωτογραφίες" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε πρώτα έναν Πελάτη προτού στείλετε Φωτογραφίες</value>
+  </data>
+  <data name="Βασικά Στοιχεία" xml:space="preserve">
+    <value>Βασικά Στοιχεία</value>
+  </data>
+  <data name="Στοιχεία Επικοινωνίας &amp; Σχόλια" xml:space="preserve">
+    <value>Στοιχεία Επικοινωνίας &amp; Σχόλια</value>
+  </data>
+  <data name="ΟΚ" xml:space="preserve">
+    <value>ΟΚ</value>
+  </data>
+  <data name="Αποθήκευση" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="Θέλετε πλήρη διαγραφή πελάτη (διαγραφή των στοιχείων του καθώς και των φωτογραφιών του) ;" xml:space="preserve">
+    <value>Θέλετε πλήρη διαγραφή πελάτη (διαγραφή των στοιχείων του καθώς και των φωτογραφιών του) ;</value>
+  </data>
+  <data name="Πλήρη διαγραφή ;" xml:space="preserve">
+    <value>Delete completely ?</value>
+  </data>
+  <data name="Παρακαλώ ορίστε καταρχήν τον Φάκελο των Φωτογραφιών και των Δεδομένων της Εφαρμογής" xml:space="preserve">
+    <value>Παρακαλώ ορίστε καταρχήν τον Φάκελο των Φωτογραφιών και των Δεδομένων της Εφαρμογής</value>
+  </data>
+  <data name="Παρακαλώ εισάγετε Ονοματεπώνυμο Πελάτη !" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε Ονοματεπώνυμο Πελάτη !</value>
+  </data>
+  <data name="Παρακαλώ εισάγετε Τηλέφωνο Πελάτη !" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε Τηλέφωνο Πελάτη !</value>
+  </data>
+  <data name="Παρακαλώ Όνομα και Επίθετο Πελάτη !" xml:space="preserve">
+    <value>Παρακαλώ Όνομα και Επίθετο Πελάτη !</value>
+  </data>
+  <data name="Παρακαλώ αποθηκεύστε πρώτα τον πελάτη προτού καθορίσετε κάποια εικόνα για αυτόν" xml:space="preserve">
+    <value>Παρακαλώ αποθηκεύστε πρώτα τον πελάτη προτού καθορίσετε κάποια εικόνα για αυτόν</value>
+  </data>
+  <data name="Μετακίνηση των Αρχείων τωρινού Φακέλου Φωτογραφιών στον καινούργιο Φάκελο ; Εάν υπάρχουν ήδη τα Αρχεία στον νέο Φάκελο πατήστει Όχι." xml:space="preserve">
+    <value>Move Files of the current Photo Folder to the new Folder? If the Files already exist in the new Folder ,press No.</value>
+  </data>
+  <data name="Μετακίνηση Αρχείων στον νέο Φάκελο ;" xml:space="preserve">
+    <value>Move files to the new Folder ?</value>
+  </data>
+  <data name="Εάν χρησιμοποιήσετε ως Φάκελο της Εφαρμογής τον Φάκελο της Επιφάνειας Εργασίας, πιθανόν να μη λειτουργεί σωστά η Εφαρμογή για τους άλλους Χρήστες του Υπολογιστή." xml:space="preserve">
+    <value>If you select the Desktop Folder as the Application Folder , it is possible that the Application will not work for other Users.</value>
+  </data>
+  <data name="Εάν θα χρησιμοποιήσουν την Εφαρμογή πολλοί Χρήστες , χρησιμοποιήστε κάποιον Κοινόχρηστο Φάκελο !" xml:space="preserve">
+    <value>If many users will use the application , use a shared folder!</value>
+  </data>
+  <data name="Είστε σίγουρος ότι θέλετε να χρησιμοποιήσετε τον Φάκελο της Επιφάνειας Εργασίας ;" xml:space="preserve">
+    <value>Are you sure that you want to use the Desktop Folder ?</value>
+  </data>
+  <data name="Χρησιμοποίηση Φακέλου Επιφάνειας Εργασίας ;" xml:space="preserve">
+    <value>Use Desktop Folder ?</value>
+  </data>
+  <data name="Παρακαλώ επιλέξτε ένα Φάκελο αποθήκευσης Φωτογραφιών !" xml:space="preserve">
+    <value>Please select a Photos Folder !</value>
+  </data>
+  <data name="Οι Ρυθμίσεις της Εφαρμογής άλλαξαν επιτυχώς ! Παρακαλώ επανεκκινήστε την Εφαρμογή " xml:space="preserve">
+    <value>The application settings have changed successfully! Please restart the application.</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η δημιουργία του καταλόγου" xml:space="preserve">
+    <value>Unable to create directory</value>
+  </data>
+  <data name="Συνέβη ένα Σφάλμα κατά τον Ορισμό του Φακέλου Φωτογραφιών !" xml:space="preserve">
+    <value>An error occured while setting the Images Folder !</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η μετακίνηση του φακέλου !" xml:space="preserve">
+    <value>Unable to move folder !</value>
+  </data>
+  <data name="Παρακαλώ επιλέξτε μία Βλάβη για τη Φωτογραφία :" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε μία Βλάβη για τη Φωτογραφία :</value>
+  </data>
+  <data name="Παρακαλώ επιλέξτε μία Περιοχή Σώματος για τη Φωτογραφία :" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε μία Περιοχή Σώματος για τη Φωτογραφία :</value>
+  </data>
+  <data name="Παρακαλώ επιλέξτε τον Φάκελο από τον οποίο θα γίνει η Εισαγωγή Βάσης Δεδομένων και Φωτογραφιών." xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε τον Φάκελο από τον οποίο θα γίνει η Εισαγωγή Βάσης Δεδομένων και Φωτογραφιών.</value>
+  </data>
+  <data name="Παρακαλώ επιλέξτε έναν φάκελο !" xml:space="preserve">
+    <value>Please select a folder !</value>
+  </data>
+  <data name="Η λειτουργία εκτελέστηκε επιτυχώς ! \n\n Παρακαλώ επαναεκκινήστε την εφαρμογή !" xml:space="preserve">
+    <value>The operation executed successfully! Please restart the application!</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η δημιουργία του Φακέλου Εξαγωγής !" xml:space="preserve">
+    <value>Unable to create the Export Folder !</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η αντιγραφή των Αρχείων Εξαγωγής !" xml:space="preserve">
+    <value>Δεν ήταν δυνατή η αντιγραφή των Αρχείων Εξαγωγής !</value>
+  </data>
+  <data name="Παρακαλώ επιλέξτε μία Βλάβη αντιστοίχισης για τη Φωτογραφία " xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε μία Βλάβη αντιστοίχισης για τη Φωτογραφία </value>
+  </data>
+  <data name="Παρακαλώ επιλέξτε μία Περιοχή Σώματος για το Πλαίσιο " xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε μία Περιοχή Σώματος για το Πλαίσιο </value>
+  </data>
+  <data name="Επεμβάσεις Laser" xml:space="preserve">
+    <value>Επεμβάσεις Laser</value>
+  </data>
+  <data name="Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή τη Νόσο / Αιτιολογία και όλα τα στοιχεία της ;" xml:space="preserve">
+    <value>Είστε σίγουροι ότι θέλετε να διαγράψετε αυτή τη Νόσο / Αιτιολογία και όλα τα στοιχεία της ;</value>
+  </data>
+  <data name="Παρακαλώ επιλέξτε πρώτα μία Νόσο / Αιτιολογία" xml:space="preserve">
+    <value>Παρακαλώ επιλέξτε πρώτα μία Νόσο / Αιτιολογία</value>
+  </data>
+  <data name="Επιλέξτε πρώτα μία Νόσο / Αιτιολογία !" xml:space="preserve">
+    <value>Επιλέξτε πρώτα μία Νόσο / Αιτιολογία !</value>
+  </data>
+  <data name="Νόσος / Αιτιολογία" xml:space="preserve">
+    <value>Νόσος / Αιτιολογία</value>
+  </data>
+  <data name="Παρακαλώ εισάγετε κάποιον Αριθμό !" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε κάποιον Αριθμό !</value>
+  </data>
+  <data name="Παρακαλώ εισάγετε κάποιο Ποσό !" xml:space="preserve">
+    <value>Παρακαλώ εισάγετε κάποιο Ποσό !</value>
+  </data>
+  <data name="Επιλογές" xml:space="preserve">
+    <value>Options</value>
+  </data>
+  <data name="Η Προβολή Παρουσίασης χρειάζεται τουλάχιστον δύο φωτογραφίες (δερματοσκοπικές ή κατοπτικές) προκειμένου να λειτουργήσει !" xml:space="preserve">
+    <value>The slide show takes at least two photos (dermatoscopic or normal view photos) to work!</value>
+  </data>
+  <data name="Παρακαλώ εισάγετε ένα Όνομα για τα στοιχεία εγγραφής" xml:space="preserve">
+    <value>Please enter a name for the Registration Information</value>
+  </data>
+  <data name="Παρακαλώ εισάγετε έναν Αριθμό Αδειών Χρήσης που έχετε αγοράσει" xml:space="preserve">
+    <value>Please enter the number of licenses you have purchased</value>
+  </data>
+  <data name="Παρακαλώ εισάγετε το κλειδί όπως σας αποστάλθηκε !" xml:space="preserve">
+    <value>Please enter the key exactly as it was sent to you !</value>
+  </data>
+  <data name="Ίσος με" xml:space="preserve">
+    <value>Ίσος με</value>
+  </data>
+  <data name="Μεγαλύτερος Από" xml:space="preserve">
+    <value>Μεγαλύτερος Από</value>
+  </data>
+  <data name="Μικρότερος Από" xml:space="preserve">
+    <value>Μικρότερος Από</value>
+  </data>
+  <data name="Διάφορος Από" xml:space="preserve">
+    <value>Διάφορος Από</value>
+  </data>
+  <data name="Περιέχει" xml:space="preserve">
+    <value>Περιέχει</value>
+  </data>
+  <data name="Αρχίζει με" xml:space="preserve">
+    <value>Αρχίζει με</value>
+  </data>
+  <data name="Τελειώνει σε" xml:space="preserve">
+    <value>Τελειώνει σε</value>
+  </data>
+  <data name="Δεν Περιέχει" xml:space="preserve">
+    <value>Δεν Περιέχει</value>
+  </data>
+  <data name="Βρέθηκαν" xml:space="preserve">
+    <value>found</value>
+  </data>
+  <data name="Πελάτες" xml:space="preserve">
+    <value>Πελάτες</value>
+  </data>
+  <data name="Περιέχουν" xml:space="preserve">
+    <value>Περιέχουν</value>
+  </data>
+  <data name="Αρχίζουν με" xml:space="preserve">
+    <value>Αρχίζουν με</value>
+  </data>
+  <data name="Τελειώνουν σε" xml:space="preserve">
+    <value>Τελειώνουν σε</value>
+  </data>
+  <data name="Δεν περιέχουν" xml:space="preserve">
+    <value>Δεν περιέχουν</value>
+  </data>
+  <data name="Ίσο με" xml:space="preserve">
+    <value>Ίσο με</value>
+  </data>
+  <data name="Μεγαλύτερο Από" xml:space="preserve">
+    <value>Μεγαλύτερο Από</value>
+  </data>
+  <data name="Μικρότερο Από" xml:space="preserve">
+    <value>Μικρότερο Από</value>
+  </data>
+  <data name="Διάφορο Από" xml:space="preserve">
+    <value>Διάφορο Από</value>
+  </data>
+  <data name="Φωτογραφίες" xml:space="preserve">
+    <value>Photos</value>
+  </data>
+  <data name="Παρακαλώ εισάγετε κάποιο Email για Λήπτη" xml:space="preserve">
+    <value>Please enter an Email as a recipient</value>
+  </data>
+  <data name="Παρακαλώ εισάγετε κάποιο Θέμα" xml:space="preserve">
+    <value>Please enter a Subject</value>
+  </data>
+  <data name="Δεν ήταν δυνατή η αποστολή ηλεκτρονικού μηνύματος" xml:space="preserve">
+    <value>Unable to send email</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="Information" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="Αντίθεση" xml:space="preserve">
+    <value>Contrast</value>
+  </data>
+  <data name="Φωτεινότητα" xml:space="preserve">
+    <value>Brightness</value>
+  </data>
+  <data name="a" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Παρακαλώ συμπληρώστε το ερωτηματολόγιο !" xml:space="preserve">
+    <value>Please fill out the Questionnaire !</value>
+  </data>
+  <data name="Σφάλμα. Δεν ήταν δυνατή η αποστολή του ερωτηματολογίου !" xml:space="preserve">
+    <value>Error. Could not send the Questionnaire</value>
+  </data>
+  <data name="Photo" xml:space="preserve">
+    <value>Photo</value>
+  </data>
+  <data name="Please specify a valid Client Images Folder !" xml:space="preserve">
+    <value>Please specify a valid Client Images Folder !</value>
+  </data>
+  <data name="Please specify a valid New Images Folder !" xml:space="preserve">
+    <value>Please specify a valid New Images Folder !</value>
+  </data>
+  <data name="Comments" xml:space="preserve">
+    <value>Comments</value>
+  </data>
+  <data name="Diagnosis" xml:space="preserve">
+    <value>Diagnosis</value>
+  </data>
+  <data name="First Photo" xml:space="preserve">
+    <value>First Photo</value>
+  </data>
+  <data name="Second Photo" xml:space="preserve">
+    <value>Second Photo</value>
+  </data>
+  <data name="Shooting Date" xml:space="preserve">
+    <value>Shooting Date</value>
+  </data>
+  <data name="Slideshow" xml:space="preserve">
+    <value>Slideshow</value>
+  </data>
+  <data name="Error. Could not send Questionnaire !" xml:space="preserve">
+    <value>Error. Could not send Questionnaire !</value>
+  </data>
+  <data name="Please fill out our Questionnaire !" xml:space="preserve">
+    <value>Please fill out our Questionnaire !</value>
+  </data>
+  <data name="Error. Could not move Photo" xml:space="preserve">
+    <value>Error. Could not move Photo</value>
+  </data>
+  <data name="Error. Could not copy Derm Expert Lite Database to new Client Images Directory !" xml:space="preserve">
+    <value>Error. Could not copy Derm Expert Lite Database to new Client Images Directory !</value>
+  </data>
+  <data name="Export also Subfolder(s) Photos ?" xml:space="preserve">
+    <value>Export also Subfolder(s) Photos ?</value>
+  </data>
+  <data name="Please restart the Application in order that the Settings take effect !" xml:space="preserve">
+    <value>Please restart the Application in order that the Settings take effect !</value>
+  </data>
+  <data name="Warning ! Could not remove Database from old Client Images Directory !" xml:space="preserve">
+    <value>Warning ! Could not remove Database from old Client Images Directory !</value>
+  </data>
+  <data name="No images were found !" xml:space="preserve">
+    <value>No images were found !</value>
+  </data>
+  <data name="Are you sure that you want to delete this Folder and all its Subfolders and Files ?" xml:space="preserve">
+    <value>Are you sure that you want to delete this Folder and all its Subfolders and Files ?</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="Error could not create Folder !" xml:space="preserve">
+    <value>Error could not create Folder !</value>
+  </data>
+  <data name="Error could not delete Folder !" xml:space="preserve">
+    <value>Error could not delete Folder !</value>
+  </data>
+  <data name="Error could not rename Folder !" xml:space="preserve">
+    <value>Error could not rename Folder !</value>
+  </data>
+  <data name="Folder Name" xml:space="preserve">
+    <value>Folder Name</value>
+  </data>
+  <data name="Please insert a valid Filename" xml:space="preserve">
+    <value>Please insert a valid Filename</value>
+  </data>
+  <data name="Please insert a valid Foldername" xml:space="preserve">
+    <value>Please insert a valid Foldername</value>
+  </data>
+  <data name="Please specify a Folder Name" xml:space="preserve">
+    <value>Please specify a Folder Name</value>
+  </data>
+  <data name="Please open two Photos before trying to print both Photos !" xml:space="preserve">
+    <value>Please open two Photos before trying to print both Photos !</value>
+  </data>
+  <data name="Error. Could not save Comments !" xml:space="preserve">
+    <value>Error. Could not save Comments !</value>
+  </data>
+  <data name="Operation completed successfully !" xml:space="preserve">
+    <value>Operation completed successfully !</value>
+  </data>
+  <data name="Brightness" xml:space="preserve">
+    <value>Brightness</value>
+  </data>
+  <data name="Compare" xml:space="preserve">
+    <value>Compare</value>
+  </data>
+  <data name="Contrast" xml:space="preserve">
+    <value>Contrast</value>
+  </data>
+  <data name="Error. Could not send Email !" xml:space="preserve">
+    <value>Error. Could not send Email !</value>
+  </data>
+  <data name="Hold down the Control Key and then make a Left Mouse Click on the Photo to Zoom In or make a Right Mouse Click to Zoom Out.\n\nTo do a Parallel Zoom i.e. Zoom both Photos at exactly the same Point at the same Time , hold down the Shift Key and do a Left or Right Mouse Click." xml:space="preserve">
+    <value>Hold down the Control Key and then make a Left Mouse Click on the Photo to Zoom In or make a Right Mouse Click to Zoom Out.\n\nTo do a Parallel Zoom i.e. Zoom both Photos at exactly the same Point at the same Time , hold down the Shift Key and do a Left or Right Mouse Click.</value>
+  </data>
+  <data name="Please insert a Recipient" xml:space="preserve">
+    <value>Please insert a Recipient</value>
+  </data>
+  <data name="Please insert a Subject !" xml:space="preserve">
+    <value>Please insert a Subject !</value>
+  </data>
+  <data name="The Slideshow requires at least two Photos available in order to work !" xml:space="preserve">
+    <value>The Slideshow requires at least two Photos available in order to work !</value>
+  </data>
+  <data name="Unspecified Error" xml:space="preserve">
+    <value>Unspecified Error</value>
+  </data>
+  <data name="Drag and Drop the Photos Here" xml:space="preserve">
+    <value>Drag and Drop the Photos Here</value>
+  </data>
+  <data name="To crop an Area of the Photo , hold down the Left Mouse Button on the Upper Left Corner of the Area to be croped. Then , while holding down the Left Mouse Button , move to the Right Lower Corner of the Area and leave the Mouse Button. If you are satisfied with the Result , click with the Mouse on the Area , or press Escape to clear." xml:space="preserve">
+    <value>To crop an Area of the Photo , hold down the Left Mouse Button on the Upper Left Corner of the Area to be croped. Then , while holding down the Left Mouse Button , move to the Right Lower Corner of the Area and leave the Mouse Button. If you are satisfied with the Result , click with the Mouse on the Area , or press Escape to clear.</value>
+  </data>
+  <data name="Cm" xml:space="preserve">
+    <value>Cm</value>
+  </data>
+  <data name="Current Position" xml:space="preserve">
+    <value>Current Position</value>
+  </data>
+  <data name="Inches" xml:space="preserve">
+    <value>Inches</value>
+  </data>
+  <data name="Pixels" xml:space="preserve">
+    <value>Pixels</value>
+  </data>
+  <data name="Hide" xml:space="preserve">
+    <value>Hide</value>
+  </data>
+  <data name="Show" xml:space="preserve">
+    <value>Show</value>
+  </data>
+</root>

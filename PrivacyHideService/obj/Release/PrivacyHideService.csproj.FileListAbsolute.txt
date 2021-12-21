@@ -1,0 +1,11 @@
+C:\code\Misc\Desktop Utilities\BossHide\ComputerUsageTracker\bin\Release\PrivacyHideService.exe
+C:\code\Misc\Desktop Utilities\BossHide\ComputerUsageTracker\bin\Release\PrivacyHideService.pdb
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\obj\Release\PrivacyHideService.MainService.resources
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\obj\Release\PrivacyHideService.ProjectInstaller.resources
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\obj\Release\PrivacyHideService.csproj.GenerateResource.Cache
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\obj\Release\PrivacyHideService.exe
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\obj\Release\PrivacyHideService.pdb
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\PrivacyHideService.exe
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\PrivacyHideService.pdb
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\bin\Release\PrivacyHideService.exe
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\bin\Release\PrivacyHideService.pdb

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30320.27
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivacyHide", "BossHide\PrivacyHide.csproj", "{7DE1E558-942D-4FBC-8169-A1C4F71B4266}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrivacyHideLauncher", "PrivacyHideLauncher\PrivacyHideLauncher.csproj", "{756F7861-3DF1-4A4E-AE4B-759AD9CCD4BB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7DE1E558-942D-4FBC-8169-A1C4F71B4266}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DE1E558-942D-4FBC-8169-A1C4F71B4266}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DE1E558-942D-4FBC-8169-A1C4F71B4266}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DE1E558-942D-4FBC-8169-A1C4F71B4266}.Release|Any CPU.Build.0 = Release|Any CPU
+		{756F7861-3DF1-4A4E-AE4B-759AD9CCD4BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{756F7861-3DF1-4A4E-AE4B-759AD9CCD4BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{756F7861-3DF1-4A4E-AE4B-759AD9CCD4BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{756F7861-3DF1-4A4E-AE4B-759AD9CCD4BB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {48577FBE-6FC6-4D52-B4AE-90F270651FC4}
+	EndGlobalSection
+EndGlobal

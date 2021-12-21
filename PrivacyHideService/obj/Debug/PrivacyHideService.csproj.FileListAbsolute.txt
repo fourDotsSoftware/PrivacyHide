@@ -1,0 +1,8 @@
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\bin\Debug\PrivacyHideService.exe
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\bin\Debug\PrivacyHideService.pdb
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\obj\Debug\PrivacyHideService.csprojResolveAssemblyReference.cache
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\obj\Debug\PrivacyHideService.MainService.resources
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\obj\Debug\PrivacyHideService.ProjectInstaller.resources
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\obj\Debug\PrivacyHideService.csproj.GenerateResource.Cache
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\obj\Debug\PrivacyHideService.exe
+C:\code\Misc\Desktop Utilities\BossHide\PrivacyHideService\obj\Debug\PrivacyHideService.pdb
